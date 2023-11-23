@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF43B90D2B03F932002D32AA /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF43B90C2B03F932002D32AA /* NewYork.ttf */; };
 		CF71BC582B036D6C008DC3BD /* BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71BC572B036D6C008DC3BD /* BooksApp.swift */; };
 		CF71BC5A2B036D6C008DC3BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71BC592B036D6C008DC3BD /* ContentView.swift */; };
 		CF71BC5C2B036D6E008DC3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71BC5B2B036D6E008DC3BD /* Assets.xcassets */; };
@@ -22,6 +21,9 @@
 		CFC2C7A62B0612DB00863D38 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C7A52B0612DB00863D38 /* ProgressBarView.swift */; };
 		CFC2C7C22B065AA600863D38 /* CurrentBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C7C12B065AA600863D38 /* CurrentBookView.swift */; };
 		CFC2C7C42B066AA500863D38 /* AdjustGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C7C32B066AA500863D38 /* AdjustGoalView.swift */; };
+		CFC2C7C72B0F442400863D38 /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFC2C7C62B0F442400863D38 /* NewYork.ttf */; };
+		CFC2C7C82B0F442400863D38 /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFC2C7C62B0F442400863D38 /* NewYork.ttf */; };
+		CFC2C7C92B0F442400863D38 /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFC2C7C62B0F442400863D38 /* NewYork.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF43B90C2B03F932002D32AA /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewYork.ttf; path = ../../../../Library/Fonts/NewYork.ttf; sourceTree = SOURCE_ROOT; };
 		CF43B90E2B03F94F002D32AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CF71BC542B036D6C008DC3BD /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF71BC572B036D6C008DC3BD /* BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApp.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		CFC2C7A52B0612DB00863D38 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		CFC2C7C12B065AA600863D38 /* CurrentBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBookView.swift; sourceTree = "<group>"; };
 		CFC2C7C32B066AA500863D38 /* AdjustGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustGoalView.swift; sourceTree = "<group>"; };
+		CFC2C7C62B0F442400863D38 /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewYork.ttf; path = ../../../../../../../../Library/Fonts/NewYork.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +147,6 @@
 			children = (
 				CF71BC722B036D6E008DC3BD /* BooksUITests.swift */,
 				CF71BC742B036D6E008DC3BD /* BooksUITestsLaunchTests.swift */,
-				CF43B90C2B03F932002D32AA /* NewYork.ttf */,
 			);
 			path = BooksUITests;
 			sourceTree = "<group>";
@@ -154,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				CF738FAF2B04BF7B00271311 /* Library.swift */,
+				CFC2C7C62B0F442400863D38 /* NewYork.ttf */,
 				CF71BC592B036D6C008DC3BD /* ContentView.swift */,
 				CF738FB12B04BF8B00271311 /* BookStore.swift */,
 				CF738FB52B04C00B00271311 /* Search.swift */,
@@ -265,8 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF43B90D2B03F932002D32AA /* NewYork.ttf in Resources */,
 				CF71BC5F2B036D6E008DC3BD /* Preview Assets.xcassets in Resources */,
+				CFC2C7C72B0F442400863D38 /* NewYork.ttf in Resources */,
 				CF71BC5C2B036D6E008DC3BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC2C7C82B0F442400863D38 /* NewYork.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC2C7C92B0F442400863D38 /* NewYork.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
